@@ -48,4 +48,4 @@ U.M means Ultra Minimal
 
 
 
-# AuTron 26 Server+ **PAID** (Minimum Req: **UNKNOWN**)
+# AuTron 26 Server+ **PAID** (Minimum Req: **UNKNOWN**)  (**CANCELLED**)
