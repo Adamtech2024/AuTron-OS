@@ -21,7 +21,7 @@ This Operating System is based of Linux and it can do anything, we have the opti
 - We also may cancel/remove the AuTron 26 U.M due to customizability reasons and other reasons...
 
 
-# AuTron 26 U.M is perfect for older computers (minimum req: any cpu, 500MB ram, and 15gb storage)
+## AuTron 26 U.M is perfect for older computers (minimum req: any cpu, 500MB ram, and 15gb storage)
 
 - AuTron 26 U.M is perfect for older computers
 U.M means Ultra Minimal
@@ -40,20 +40,20 @@ U.M means Ultra Minimal
 
 
 
-# AuTron 26 M is perfect for old computers (minimum req: any any cpu. 450-600mb, 25gb storage)
+## AuTron 26 M is perfect for old computers (minimum req: any any cpu. 450-600mb, 25gb storage)
 
 
 
-# AuTron 26 Pro (minimum req: 1Ghz cpu, +3Gb RAM, 30Gb Storage)
+## AuTron 26 Pro (minimum req: 1Ghz cpu, +3Gb RAM, 30Gb Storage)
 
 
 
-# AuTron 26 Enterprise **PAID** (Minimum Req: 1Ghz CPU, 1Gb RAM, 10Gb Storage)
+## AuTron 26 Enterprise **PAID** (Minimum Req: 1Ghz CPU, 1Gb RAM, 10Gb Storage)
 
 
 
-# AuTron 26 Server (Minimum Req: **UNKNOWN**)
+## AuTron 26 Server (Minimum Req: **UNKNOWN**)
 
 
 
-# AuTron 26 Server+ **PAID** (Minimum Req: **UNKNOWN**)  (**CANCELLED**)
+## AuTron 26 Server+ **PAID** (Minimum Req: **UNKNOWN**)  (**CANCELLED**)
