@@ -1,0 +1,28 @@
+{
+  "name": "AuTron Studio",
+  "short_name": "AuTron Studio",
+  "description": "A free, installable, offline-ready web video editor.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "photo", "video", "utilities"],
+  "shortcuts": [
+    {
+      "name": "New project",
+      "short_name": "New",
+      "description": "Open AuTron Studio and start a new project.",
+      "url": "/?action=new-project"
+    }
+  ]
+}

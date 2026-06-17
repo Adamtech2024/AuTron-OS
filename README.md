@@ -1,59 +1,56 @@
-# THIS OPERATING SYSTEM IS OPEN SOURCE (ALWAYS WILL BE!)
+# AuTron Studio
 
-# THIS PROJECT HAS BEEN ARCHIVED DUE TO FEW REASONS!
-- Not enough time to code the OS
-- Not enough devs to maintain this OS
-- Not enough devs to **MAKE** this OS look good and feel nice
-- The only dev is busy...
+AuTron Studio is a free, installable, offline-ready web video editor. The first
+frontend MVP is built as a local-first PWA so people can install it from the
+browser and keep using the app shell without Wi-Fi.
 
-## This project will continue quietly but the OS will be made eventually
+The editor layout is inspired by modern short-form video editors: media bin,
+preview canvas, timeline tracks, tools, inspector controls, templates, and
+export actions. It avoids copied branding/assets and is ready for open-source
+development.
 
-# AuTron-Operating-System-Series
- This Operating System is the best for those who wants windows stuff while having a macOS feel!
+## Current MVP
 
+- Vite + React + TypeScript frontend.
+- Responsive editor UI for desktop, tablet, and mobile.
+- PWA manifest with app name, icon, theme colors, and install shortcut.
+- Service worker for offline app shell caching.
+- Download/install CTA for supported browsers.
+- Local project persistence using IndexedDB.
+- Local media import metadata in the media bin.
+- Timeline mock with video, text, and audio tracks.
 
-This Operating System is based of Linux and it can do anything, we have the option for AuTron 26 U.M (Ultra-Mini, for old computers with less than 1Gb ram, perfect for web, light gaming and etc), AuTron 26 M (Mini, for Old computers with more than 1Gb ram, perfect for web, gaming, watching videos and minimal use) and AuTron Pro (Pro, for Old or New computers with 2Gb ram or more, perfect for Business work, heavy work, high rendering and also perfect for minimal use)
+## Local development
 
-**Updates (10/1/2026)**
-- We are launching new series!
-- We are launching the Enterprise Series, Server Series, and the Server+ Series
+```bash
+npm install
+npm run dev
+```
 
-- We also may cancel/remove the AuTron 26 U.M due to customizability reasons and other reasons...
+## Checks
 
+```bash
+npm run lint
+npm run typecheck
+npm run build
+```
 
-## AuTron 26 U.M is perfect for older computers (minimum req: any cpu, 500MB ram, and 15gb storage)
+## Backend contract
 
-- AuTron 26 U.M is perfect for older computers
-U.M means Ultra Minimal
+The app should remain usable without a backend. Backend sync, accounts, asset
+storage, collaboration, and cloud render jobs should be optional add-ons, not
+requirements for basic editing/exporting.
 
-**Minimum Requirements**
-- Any CPU
-- 1Gb Ram
-- 15Gb Storage
+Recommended backend modules:
 
-**Additional Information:**
-- Minimal Glass UI
-- Somewhat User Friendly
-- Comes with LibreOffice (Basically the knockoff version of Microsoft Office and its FREE!)
-- x64 ONLY
-- XFCE
+- `/auth`
+- `/users`
+- `/projects`
+- `/assets`
+- `/templates`
+- `/effects`
+- `/render-jobs`
+- `/health`
 
-
-
-## AuTron 26 M is perfect for old computers (minimum req: any any cpu. 450-600mb, 25gb storage)
-
-
-
-## AuTron 26 Pro (minimum req: 1Ghz cpu, +3Gb RAM, 30Gb Storage)
-
-
-
-## AuTron 26 Enterprise **PAID** (Minimum Req: 1Ghz CPU, 1Gb RAM, 10Gb Storage)
-
-
-
-## AuTron 26 Server (Minimum Req: **UNKNOWN**)
-
-
-
-## AuTron 26 Server+ **PAID** (Minimum Req: **UNKNOWN**)  (**CANCELLED**)
+Project timeline JSON should be treated as the source of truth for synced
+projects, while raw media remains local unless the user explicitly uploads it.
