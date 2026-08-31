@@ -66,7 +66,7 @@ The OS will focus on:
 
 The goal is to avoid using resources for things that are not needed.
 
-The Goal
+## The Goal
 
 The goal of AuTron OS is to make an operating system that is fast, simple, lightweight and nice to use.
 
@@ -74,4 +74,4 @@ The UI is designed to be simple enough to use with a keyboard, while also allowi
 
 This is a completely new start for the project, so a lot of things can change during development.
 
-AuTron OS will be made eventually.
+### AuTron OS will be made eventually.
